@@ -1,0 +1,44 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define SERIAL_EMIT 
+#define USB_EMIT
+
+#define COL_NB 8
+#define ROW_NB 10
+#define KEY_NB COL_NB * ROW_NB
+
+#define MATRIX_SCAN_SERIAL_ENABLE TRUE
+#define DELAYDEBOUNCE 20
+#define DELAYCHORD 20
+#define DELAYREPEAT 150
+#define DELAYREPEATPROG 15
+#define DELAYREPEATMOUSE 0
+#define DELAYREPEATCHORD DELAYREPEAT - DELAYCHORD
+#define PASTDELAYREPEAT 30
+
+#define XMOUSE 1
+#define YMOUSE 1
+#define XXMOUSE 3
+#define YYMOUSE 3
+#define MOUSESCROLL 1
+
+#define KEY_SEQ_LENGTH 10
+
+//#define DEBUG_LEVEL DEBUG_RAW
+//#define DEBUG_LEVEL DEBUG_LOW
+//#define DEBUG_LEVEL DEBUG_MED
+#define DEBUG_LEVEL DEBUG_STD
+#define DEBUG_LEVEL DEBUG_NOR
+
+#define LED1 19
+#define LED2 20
+#define LED3 21
+#define LED4 22
+#define LED5 23
+
+
+
+#endif
+
+
